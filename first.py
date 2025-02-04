@@ -9,8 +9,8 @@ print("My name is", name)
 print("My name is "+name+"!")
 
 import random
-print("The lucky number is",randint(1,100)
+print("The lucky number is",random.randint(1,100))
 
 import math
-print("Cosine of 0.5 is",cos(0.5)
+print("Cosine of 0.5 is",math.cos(0.5))
 
