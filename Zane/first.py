@@ -6,8 +6,8 @@
 # name="Zane Salam"
 name = input("Enter your name: ")
 
-print("My name is", name)
-print("My name is "+name+"!")
+print("My name is", (name +"!"))
+# print("My name is " + name + "!")
 
 import random
 print("The lucky number is",random.randint(1,100))
