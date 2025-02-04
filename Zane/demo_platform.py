@@ -9,9 +9,9 @@ import sys
 import os
 
 if sys.platform == "win32":
-    home_dir = os.environ["HOMEPATH"]
+    home_dir = os.environ["HOMEPATH"]   # Expected Output: \Users\USERNAME
 else:
-    home_dir = os.environ["HOME"]
+    home_dir = os.environ["HOME"]   # Expected Output: /home/USERNAME or /usr/home/USERNAME
 
 
 print(home_dir)
